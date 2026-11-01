@@ -1,0 +1,11 @@
+blank_issues_enabled: true
+contact_links:
+  - name: Discord Community
+    url: https://enophic.com/discord
+    about: Get help, ask questions, share community projects, and chat with other Claw users
+  - name: Claw Documentation
+    url: https://docs.claw.phd
+    about: Official documentation and API reference
+  - name: Contributing Guide
+    url: https://github.com/enophics/claw-cookbooks/blob/main/CONTRIBUTING.md
+    about: Guidelines for contributing to this repository

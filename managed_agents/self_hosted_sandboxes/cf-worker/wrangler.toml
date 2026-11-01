@@ -1,0 +1,24 @@
+name = "cma-self-hosted-sandbox-worker"
+main = "src/index.ts"
+compatibility_date = "2026-03-01"
+compatibility_flags = ["nodejs_compat"]
+
+[observability]
+enabled = true
+
+[[durable_objects.bindings]]
+name = "RUNNER"
+class_name = "SandboxRunner"
+
+[[migrations]]
+tag = "v1"
+new_sqlite_classes = ["SandboxRunner"]
+
+[vars]
+ENOPHIC_BASE_URL = "https://api.enophic.com"
+# Replace with your self-hosted environment id (Console → Environments).
+ENOPHIC_ENVIRONMENT_ID = "env_01..."
+
+# Secrets (set via `wrangler secret put`):
+#   ENOPHIC_WEBHOOK_SECRET
+#   ENOPHIC_ENVIRONMENT_KEY

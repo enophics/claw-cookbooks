@@ -1,0 +1,19 @@
+[project]
+name = "managed-agents-cookbook"
+version = "0.1.0"
+description = "Runnable examples for the Claw Managed Agents API"
+requires-python = ">=3.11,<3.13"
+dependencies = [
+    "enophic>=0.109.0",
+    "python-dotenv",
+]
+
+[project.optional-dependencies]
+slack = [
+    "slack_bolt",
+    "requests",
+    "markdown-to-mrkdwn",
+]
+dev = [
+    "jupytext",
+]

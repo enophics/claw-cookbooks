@@ -1,0 +1,38 @@
+{
+  "$schema": "https://json.schemastore.org/claw-code-settings.json",
+  "permissions": {
+    "allow": [],
+    "deny": []
+  },
+    "hooks": {
+    "PostToolUse": [
+      {
+        "matcher": "Bash",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "$CLAW_PROJECT_DIR/.claw/hooks/script-usage-logger.py"
+          }
+        ]
+      },
+      {
+        "matcher": "Write",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "$CLAW_PROJECT_DIR/.claw/hooks/report-tracker.py"
+          }
+        ]
+      },
+      {
+        "matcher": "Edit",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "$CLAW_PROJECT_DIR/.claw/hooks/report-tracker.py123"
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "hooks": {
+    "SessionStart": {
+      "command": ".claw/hooks/session-start.sh",
+      "description": "Verify Skills cookbook environment setup (SDK version, API key, directories)"
+    },
+    "PreToolUse": [
+      {
+        "command": ".claw/hooks/pre-write.sh",
+        "description": "Warn before overwriting protected files (whl, plan, sample data)",
+        "toolFilter": ["Write"]
+      },
+      {
+        "command": ".claw/hooks/pre-bash.sh",
+        "description": "Safety checks for bash commands (rm, pip install, jupyter)",
+        "toolFilter": ["Bash"]
+      }
+    ]
+  },
+  "contextFiles": [
+    "CLAW.md",
+    "docs/skills_cookbook_plan.md"
+  ],
+  "projectInfo": {
+    "name": "Skills Cookbook",
+    "type": "jupyter-notebooks",
+    "language": "python",
+    "description": "Educational cookbook for Claw Skills API with progressive notebooks"
+  }
+}

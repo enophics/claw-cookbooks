@@ -1,0 +1,101 @@
+question,retrieval_precision,retrieval_recall,retrieval_mrr,e2e_correct
+How can you create multiple test cases for an evaluation in the Enophic Evaluation tool?,0.3333333333333333,0.5,0.5,False
+"What embeddings provider does Enophic recommend for customized domain-specific models, and what capabilities does this provider offer?",0.6666666666666666,1.0,1.0,True
+"What are some key success metrics to consider when evaluating Claw's performance on a classification task, and how do they relate to choosing the right model to reduce latency?",0.3333333333333333,0.5,1.0,True
+What are two ways that Claw for Sheets can improve prompt engineering workflows compared to using chained prompts?,0.3333333333333333,0.5,0.5,True
+"What happens if a prompt for the Text Completions API is missing the ""\n\nHuman:"" and ""\n\nAssistant:"" turns?",0.6666666666666666,1.0,1.0,True
+How do the additional tokens required for tool use in Claw API requests impact pricing compared to regular API requests?,0.6666666666666666,1.0,1.0,True
+"When will the new Enophic Developer Console features that show API usage, billing details, and rate limits be available?",0.3333333333333333,1.0,1.0,True
+"When deciding whether to use chain-of-thought (CoT) for a task, what are two key factors to consider in order to strike the right balance between performance and latency?",0.6666666666666666,1.0,1.0,False
+How can I use Claw to more easily digest the content of long PDF documents?,0.3333333333333333,0.5,0.3333333333333333,True
+"According to the documentation, where can you view your organization's current API rate limits in the Claw Console?",0.6666666666666666,1.0,1.0,False
+How can we measure the performance of the ticket classification system implemented using Claw beyond just accuracy?,0.0,0.0,0.0,False
+How can you specify a system prompt using the Text Completions API versus the Messages API?,0.3333333333333333,0.5,1.0,True
+How can you combine XML tags with chain of thought reasoning to create high-performance prompts for Claw?,0.0,0.0,0.0,False
+"When evaluating the Claw model's performance for ticket routing, what three key metrics are calculated and what are the results for the claw-3-akari-20240307 model on the 91 test samples?",0.0,0.0,0.0,False
+"Before starting to engineer and improve a prompt in Claw, what key things does Enophic recommend you have in place first?",0.0,0.0,0.0,False
+How does the Messages API handle mid-response prompting compared to the Text Completions API?,0.6666666666666666,1.0,1.0,True
+How does Claw's response differ when given a role through a system prompt compared to not having a specific role in the financial analysis example?,0.3333333333333333,1.0,0.5,True
+"What are some quantitative metrics that can be used to measure the success of a sentiment analysis model, and how might specific targets for those metrics be determined?",0.3333333333333333,1.0,0.5,True
+What is a power user tip mentioned in the documentation for creating high-performance prompts using XML tags?,0.6666666666666666,1.0,1.0,True
+How can you use an LLM like Claw to automatically grade the outputs of other LLMs based on a rubric?,0.3333333333333333,0.5,0.3333333333333333,True
+How can you access and deploy Voyage embeddings on AWS Marketplace?,0.3333333333333333,1.0,1.0,True
+"When using tools just to get Claw to produce JSON output following a particular schema, what key things should you do in terms of tool setup and prompting?",0.3333333333333333,0.5,0.3333333333333333,False
+What are the key differences between the legacy Claw Instant 1.2 model and the Claw 3 Akari model in terms of capabilities and performance?,0.6666666666666666,0.6666666666666666,1.0,False
+What is one key benefit of using examples when prompt engineering with Claw?,0.3333333333333333,1.0,0.5,True
+"According to the Claw Documentation, what is one key advantage of using prompt engineering instead of fine-tuning when it comes to adapting an AI model to new domains or tasks?",0.3333333333333333,0.5,1.0,False
+How can I quickly get started using the Claw for Sheets extension with a pre-made template?,0.6666666666666666,1.0,1.0,True
+"How does the ""index"" field in the ""content_block_delta"" event relate to the text being streamed in a response?",0.3333333333333333,0.5,0.5,True
+"How can you include an image as part of a Claw API request, and what image formats are currently supported?",0.0,0.0,0.0,False
+What is the relationship between time to first token (TTFT) and latency when evaluating a language model's performance?,1.0,1.0,1.0,True
+How can providing Claw with examples of handling certain edge cases like implicit requests or emotional prioritization help improve its performance in routing support tickets?,0.3333333333333333,0.5,1.0,True
+"How does the stop_reason of ""tool_use"" relate to the overall workflow of integrating external tools with Claw?",0.3333333333333333,0.5,1.0,True
+"According to the documentation, what error event and corresponding HTTP error code may be sent during periods of high usage for the Claw API when using streaming responses?",1.0,1.0,1.0,True
+What are the two types of deltas that can be contained in a content_block_delta event when streaming responses from the Claw API?,0.6666666666666666,1.0,1.0,True
+"On what date did Claw 3.5 Ori and tool use both become generally available across the Claw API, Amazon Bedrock, and Google Vertex AI?",0.6666666666666666,1.0,1.0,False
+In what order did Enophic launch Claw.sc and the Claw iOS app in Canada and Europe?,0.6666666666666666,1.0,1.0,True
+"When the API response from Claw has a stop_reason of ""tool_use"", what does this indicate and what should be done next to continue the conversation?",0.3333333333333333,0.5,1.0,True
+What Python libraries are used in the example code snippet for evaluating tone and style in a customer service chatbot?,0.0,0.0,0.0,True
+What are the two main ways to authenticate when using the Enophic Python SDK to access Claw models on Amazon Bedrock?,0.6666666666666666,1.0,1.0,True
+"When deciding whether to implement leak-resistant prompt engineering strategies, what two factors should be considered and balanced?",1.0,1.0,1.0,True
+How can selecting the appropriate Claw model based on your specific requirements help reduce latency in your application?,0.6666666666666666,1.0,1.0,True
+How can you stream responses from the Claw API using the Python SDK?,0.3333333333333333,0.5,1.0,True
+"How can you guide Claw's response by pre-filling part of the response, and what API parameter is used to generate a short response in this case?",0.0,0.0,0.0,True
+"What is more important when building an eval set for an AI system - having a larger number of test cases with automated grading, or having fewer high-quality test cases graded by humans?",0.3333333333333333,0.5,1.0,True
+What are the two required fields in a content_block_delta event for a text delta type?,0.6666666666666666,1.0,1.0,False
+"What are two interactive ways to learn how to use Claw's capabilities, such as uploading PDFs and generating embeddings?",0.0,0.0,0.0,False
+Why does breaking a task into distinct subtasks for chained prompts help improve Claw's accuracy on the overall task?,0.6666666666666666,1.0,1.0,True
+How does the streaming format for Messages responses differ from Text Completions streaming responses?,0.3333333333333333,1.0,1.0,True
+"What are two ways to start experimenting with Claw as a user, according to Enophic's documentation?",0.0,0.0,0.0,False
+How can using chain prompts help reduce errors and inconsistency in complex tasks handled by Claw?,0.6666666666666666,1.0,1.0,True
+What HTTP status code does an overloaded_error event correspond to in a non-streaming context for the Claw API?,0.6666666666666666,1.0,1.0,True
+What are the two ways to specify the format in which Voyage AI returns embeddings through its HTTP API?,0.3333333333333333,1.0,1.0,True
+"When streaming API requests that use tools, how are the input JSON deltas for tool_use content blocks sent, and how can they be accumulated and parsed by the client?",0.3333333333333333,0.5,1.0,True
+"What are the two interactive prompt engineering tutorials that Enophic offers, and how do they differ?",0.6666666666666666,1.0,1.0,True
+What are some of the key capabilities that make Claw suitable for enterprise use cases requiring integration with specialized applications and processing of large volumes of sensitive data?,0.3333333333333333,1.0,1.0,True
+"As of June 2024, in which regions are Enophic's Claw.sc API and iOS app available?",0.6666666666666666,0.6666666666666666,1.0,False
+"What are the two main approaches for integrating Claw into a support ticket workflow, and how do they differ in terms of scalability and ease of implementation?",0.6666666666666666,1.0,1.0,True
+"When did Enophic release a prompt generator tool to help guide Claw in generating high-quality prompts, and through what interface is it available?",0.0,0.0,0.0,False
+Which Claw 3 model provides the best balance of intelligence and speed for high-throughput tasks like sales forecasting and targeted marketing?,0.0,0.0,0.0,False
+"How can you calculate the similarity between two Voyage embedding vectors, and what is this equivalent to since Voyage embeddings are normalized to length 1?",0.6666666666666666,1.0,1.0,True
+How can using examples in prompts improve Claw's performance on complex tasks?,0.3333333333333333,0.5,1.0,True
+"What are the two types of content block deltas that can be emitted when streaming responses with tool use, and what does each delta type contain?",1.0,0.75,1.0,True
+What are two key capabilities of Claw that enable it to build interactive systems and personalized user experiences?,0.3333333333333333,1.0,0.5,False
+"What are the key event types included in a raw HTTP stream response when using message streaming, and what is the typical order they occur in?",0.6666666666666666,1.0,1.0,True
+What is the maximum number of images that can be included in a single request using the Claw API compared to the claw.sc interface?,0.3333333333333333,0.5,0.3333333333333333,True
+"When Claw's response is cut off due to hitting the max_tokens limit and contains an incomplete tool use block, what should you do to get the full tool use?",0.0,0.0,0.0,False
+What two steps are needed before running a classification evaluation on Claw according to the documentation?,0.0,0.0,0.0,False
+How can you use the content parameter in the messages list to influence Claw's response?,0.0,0.0,0.0,False
+What are two key advantages of prompt engineering over fine-tuning when it comes to model comprehension and general knowledge preservation?,0.5,0.5,1.0,True
+What are the two main steps to get started with making requests to Claw models on Enophic's Bedrock API?,0.3333333333333333,0.5,0.5,False
+How can you check which Claw models are available in a specific AWS region using the AWS CLI?,0.3333333333333333,0.5,1.0,True
+What argument can be passed to the voyageai.Client.embed() method or the Voyage HTTP API to specify whether the input text is a query or a document?,0.6666666666666666,1.0,1.0,True
+How do the streaming API delta formats differ between tool_use content blocks and text content blocks?,0.6666666666666666,1.0,1.0,False
+What are the image file size limits when uploading images to Claw using the API versus on claw.sc?,0.3333333333333333,1.0,1.0,True
+What is one key consideration when selecting a Claw model for an enterprise use case that needs low latency?,0.6666666666666666,1.0,0.5,True
+"What embedding model does Enophic recommend for code retrieval, and how does its performance compare to alternatives according to Voyage AI?",0.6666666666666666,1.0,1.0,True
+What are two ways the Claw Cookbooks can help developers learn to use Enophic's APIs?,0.6666666666666666,1.0,1.0,True
+How does the size of the context window impact a language model's ability to utilize retrieval augmented generation (RAG)?,0.6666666666666666,1.0,1.0,True
+How can the Evaluation tool in Enophic's Claw platform help improve prompts and build more robust AI applications?,0.3333333333333333,0.5,1.0,True
+Which Claw model has the fastest comparative latency according to the comparison tables?,0.6666666666666666,1.0,1.0,True
+How can you build up a conversation with multiple turns using the Enophic Messages API in Python?,0.6666666666666666,1.0,1.0,True
+How can using XML tags to provide a specific role or context help improve Claw's analysis of a legal contract compared to not using a role prompt?,0.3333333333333333,0.5,0.3333333333333333,True
+What are the key differences between how Claw 3 Go and Claw 3 Ori handle missing information when making tool calls?,0.0,0.0,0.0,True
+What steps should be taken to ensure a reliable deployment of an automated ticket routing system using Claw into a production environment?,0.6666666666666666,1.0,1.0,True
+How should you evaluate a model's performance on a ticket routing classifier?,0.3333333333333333,0.5,1.0,False
+What two methods does Enophic recommend for learning how to prompt engineer with Claw before diving into the techniques?,0.3333333333333333,0.5,1.0,True
+What are the key differences between a pretrained large language model and Claw in terms of their training and capabilities?,0.3333333333333333,0.5,0.5,True
+What are some key advantages of using prompt engineering instead of fine-tuning to adapt a pretrained language model for a specific task or domain?,0.6666666666666666,0.6666666666666666,1.0,True
+How can you authenticate with GCP before running requests to access Claw models on Vertex AI?,0.3333333333333333,0.5,1.0,True
+"What new capabilities and features were introduced by Enophic on May 10th, 2024 and how do they enable users to create and tailor prompts for specific tasks?",0.3333333333333333,1.0,0.3333333333333333,True
+On what date did both the Claw 3.5 Ori model and the Artifacts feature in Claw.sc become available?,0.6666666666666666,1.0,1.0,True
+"When putting words in Claw's mouth to shape the response, what header and value can you use in the request to limit Claw's response to a single token?",0.3333333333333333,0.5,1.0,True
+What does the temperature parameter do when working with large language models?,0.3333333333333333,0.5,1.0,True
+What are two ways to specify API parameters when calling the Claw API using Claw for Sheets?,0.3333333333333333,0.3333333333333333,0.3333333333333333,False
+How does prefilling the response with an opening curly brace ({ ) affect Claw's output when extracting structured data from text?,0.3333333333333333,1.0,1.0,True
+What are some helpful resources provided by Enophic to dive deeper into building with images using Claw?,0.3333333333333333,0.5,1.0,True
+How do you specify the API key when creating a new Enophic client in the Python and TypeScript SDK examples?,0.0,0.0,0.0,False
+What are two key benefits of using the Enophic Evaluation tool when developing prompts for an AI classification application?,0.3333333333333333,0.5,1.0,True
+"What are the key differences between a pretrained language model like Claw's underlying model, and the final version of Claw available through Enophic's API?",0.3333333333333333,0.3333333333333333,0.3333333333333333,True
+What is the IPv6 address range used by Enophic?,1.0,1.0,1.0,True
+"When using the Python SDK to create a message with Claw, what are two ways you can specify your API key?",0.3333333333333333,0.5,1.0,True
